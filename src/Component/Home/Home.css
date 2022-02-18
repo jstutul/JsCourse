@@ -1,0 +1,43 @@
+.slider-img{
+    height: 400px;
+}
+
+@media (min-width: 576px) { 
+    .spinnerStyle{
+        position: fixed;
+        z-index: 1;
+        top: 20%;
+        left: 10%;
+        font-size: 4rem;
+    }
+    .spinner-border {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+@media (min-width: 768px) { 
+.spinnerStyle{
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    left: 40%;
+    font-size: 4rem;
+}
+.spinner-border {
+    width: 7rem;
+    height: 7rem;
+}
+ }
+ @media (min-width: 992px) { 
+    .spinnerStyle{
+        position: fixed;
+        z-index: 1;
+        top: 40%;
+        left: 45%;
+        font-size: 4rem;
+    }
+    .spinner-border {
+        width: 7rem;
+        height: 7rem;
+    }
+  }
